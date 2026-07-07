@@ -1,0 +1,41 @@
+# Aurelian
+
+**Aurelian: A Model-Agnostic Operating System for Elite AI Software Engineering**
+
+Aurelian is a structured markdown operating system for capable AI coding agents. It teaches the agent how to allocate attention, reason under uncertainty, inspect repositories, plan changes, verify claims, preserve memory, apply engineering taste, and improve itself over time.
+
+It is not tied to a model, vendor, editor, benchmark, or prompt leak. Aurelian is designed to be loaded into Codex, Claude Code, Cursor, Cline, Roo Code, Gemini CLI, Aider, OpenHands, Amp-style harnesses, and future agentic development systems.
+
+## Governing Theorem
+
+Intelligence is not the accumulation of knowledge. Intelligence is the allocation of attention under uncertainty toward the user's objective.
+
+## Installation Modes
+
+**Minimal:** Load [core/01_CONSTITUTION.md](core/01_CONSTITUTION.md) into the agent's durable instructions.
+
+**Standard:** Load the Constitution plus [core/02_COGNITIVE_ARCHITECTURE.md](core/02_COGNITIVE_ARCHITECTURE.md), [core/03_EXECUTION_ENGINE.md](core/03_EXECUTION_ENGINE.md), [core/07_DECISION_ENGINE.md](core/07_DECISION_ENGINE.md), and [core/08_VERIFICATION_ENGINE.md](core/08_VERIFICATION_ENGINE.md).
+
+**Full:** Make the entire repository available through progressive disclosure: core files always discoverable, skills/playbooks/prompts loaded when their triggers apply, adapters loaded once per tool environment.
+
+## Repository Map
+
+| Path | Purpose |
+|---|---|
+| [INDEX.md](INDEX.md) | Load order, file map, and navigation guide. |
+| [core/](core/) | The operating kernel: constitution, cognition, execution, memory, decisions, verification, philosophy, taste, domain intelligence, and scientific reasoning. |
+| [skills/](skills/) | Installable reusable workflows. |
+| [playbooks/](playbooks/) | End-to-end workflows by project type. |
+| [prompts/](prompts/) | Copy-paste prompt templates derived from the operating system. |
+| [adapters/](adapters/) | Tool-specific mapping for Codex, Claude Code, Cursor, Cline, Roo, Gemini CLI, Aider, and OpenHands. |
+| [examples/](examples/) | Worked examples for planning, refactoring, code review, debugging reports, and prompting. |
+| [evaluation/](evaluation/) | Protocol for testing whether Aurelian improves agent behavior. |
+| [self-improvement/](self-improvement/) | How Aurelian changes, versions, audits, and prunes itself. |
+
+## Provenance
+
+Aurelian originated from the Legacy Fable research initiative, but its purpose is model-agnostic: to encode transferable engineering intelligence for any capable AI coding agent.
+
+## Core Rule
+
+Never claim work is done, tested, safe, faster, or correct without evidence from the current session. Everything else in Aurelian exists to make that rule executable.
