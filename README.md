@@ -18,11 +18,14 @@ Intelligence is not the accumulation of knowledge. Intelligence is the allocatio
 
 **Full:** Make the entire repository available through progressive disclosure: core files always discoverable, skills/playbooks/prompts loaded when their triggers apply, adapters loaded once per tool environment.
 
+To apply Aurelian to an existing project repository, use [INSTALL_AURELIAN_IN_PROJECT.md](INSTALL_AURELIAN_IN_PROJECT.md).
+
 ## Repository Map
 
 | Path | Purpose |
 |---|---|
 | [INDEX.md](INDEX.md) | Load order, file map, and navigation guide. |
+| [INSTALL_AURELIAN_IN_PROJECT.md](INSTALL_AURELIAN_IN_PROJECT.md) | Official guide for installing Aurelian into any project repository. |
 | [core/](core/) | The operating kernel: constitution, cognition, execution, memory, decisions, verification, philosophy, taste, domain intelligence, scientific reasoning, and model routing. |
 | [skills/](skills/) | Installable reusable workflows. |
 | [playbooks/](playbooks/) | End-to-end workflows by project type and research-to-execution flow. |

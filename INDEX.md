@@ -23,6 +23,7 @@ This index defines the repository structure, recommended load order, and purpose
 
 | Task | Add |
 |---|---|
+| Installing Aurelian into a project repo | [INSTALL_AURELIAN_IN_PROJECT.md](INSTALL_AURELIAN_IN_PROJECT.md) |
 | Durable instructions or memory | [core/04_MEMORY_SYSTEM.md](core/04_MEMORY_SYSTEM.md) |
 | Engineering judgment or architecture | [core/09_ENGINEERING_PHILOSOPHY.md](core/09_ENGINEERING_PHILOSOPHY.md), [core/10_TASTE_AND_DESIGN.md](core/10_TASTE_AND_DESIGN.md) |
 | Unknown domains | [core/11_DOMAIN_INTELLIGENCE.md](core/11_DOMAIN_INTELLIGENCE.md), [core/12_SCIENTIFIC_REASONING.md](core/12_SCIENTIFIC_REASONING.md) |
@@ -37,6 +38,11 @@ This index defines the repository structure, recommended load order, and purpose
 | Improving Aurelian | [self-improvement/16_SELF_IMPROVEMENT.md](self-improvement/16_SELF_IMPROVEMENT.md) |
 
 ## File Map
+
+### Top-Level Guides
+
+- [README.md](README.md): overview, installation modes, repository map, provenance, and core rule.
+- [INSTALL_AURELIAN_IN_PROJECT.md](INSTALL_AURELIAN_IN_PROJECT.md): official guide for applying the project template, agent loaders, bootstrap prompt, research docs, repo audit, roadmap, and milestone execution to any repository.
 
 ### Core
 
