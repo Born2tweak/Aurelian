@@ -26,6 +26,7 @@ This index defines the repository structure, recommended load order, and purpose
 | Durable instructions or memory | [core/04_MEMORY_SYSTEM.md](core/04_MEMORY_SYSTEM.md) |
 | Engineering judgment or architecture | [core/09_ENGINEERING_PHILOSOPHY.md](core/09_ENGINEERING_PHILOSOPHY.md), [core/10_TASTE_AND_DESIGN.md](core/10_TASTE_AND_DESIGN.md) |
 | Unknown domains | [core/11_DOMAIN_INTELLIGENCE.md](core/11_DOMAIN_INTELLIGENCE.md), [core/12_SCIENTIFIC_REASONING.md](core/12_SCIENTIFIC_REASONING.md) |
+| Model/tool routing | [core/13_MODEL_ROUTER.md](core/13_MODEL_ROUTER.md) |
 | Reusable workflows | [skills/05_SKILLS_LIBRARY.md](skills/05_SKILLS_LIBRARY.md) |
 | Project-type workflows | [playbooks/06_PLAYBOOKS.md](playbooks/06_PLAYBOOKS.md) |
 | Copy-paste task prompts | [prompts/13_PROMPT_LIBRARY.md](prompts/13_PROMPT_LIBRARY.md) |
@@ -49,11 +50,14 @@ This index defines the repository structure, recommended load order, and purpose
 - [core/10_TASTE_AND_DESIGN.md](core/10_TASTE_AND_DESIGN.md): engineering and design taste.
 - [core/11_DOMAIN_INTELLIGENCE.md](core/11_DOMAIN_INTELLIGENCE.md): how to enter unfamiliar fields safely.
 - [core/12_SCIENTIFIC_REASONING.md](core/12_SCIENTIFIC_REASONING.md): hypothesis testing, evidence, causality, and measurement.
+- [core/13_MODEL_ROUTER.md](core/13_MODEL_ROUTER.md): routing work across models, harnesses, research tools, execution agents, reviewers, and future tools.
 
 ### Workflow Modules
 
 - [skills/05_SKILLS_LIBRARY.md](skills/05_SKILLS_LIBRARY.md): installable skills such as Planner, Reviewer, Debugger, Security Sweep, Honest Advisor, and Documentation Steward.
 - [playbooks/06_PLAYBOOKS.md](playbooks/06_PLAYBOOKS.md): end-to-end workflows for SaaS, APIs, CLIs, monorepos, migrations, legacy code, and greenfield projects.
+- [playbooks/18_RESEARCH_TO_EXECUTION_OS.md](playbooks/18_RESEARCH_TO_EXECUTION_OS.md): full research-to-execution workflow from intake through discovery, research, synthesis, repo audit, roadmap, execution, review swarm, and learning update.
+- [prompts/00_AURELIAN_BOOTSTRAP_PROMPT.md](prompts/00_AURELIAN_BOOTSTRAP_PROMPT.md): portable paste-in bootstrap prompt for starting a project with Aurelian in any capable tool.
 - [prompts/13_PROMPT_LIBRARY.md](prompts/13_PROMPT_LIBRARY.md): portable prompts for agents that cannot load the full repository.
 
 ### Tooling

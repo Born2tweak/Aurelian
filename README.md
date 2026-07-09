@@ -23,10 +23,10 @@ Intelligence is not the accumulation of knowledge. Intelligence is the allocatio
 | Path | Purpose |
 |---|---|
 | [INDEX.md](INDEX.md) | Load order, file map, and navigation guide. |
-| [core/](core/) | The operating kernel: constitution, cognition, execution, memory, decisions, verification, philosophy, taste, domain intelligence, and scientific reasoning. |
+| [core/](core/) | The operating kernel: constitution, cognition, execution, memory, decisions, verification, philosophy, taste, domain intelligence, scientific reasoning, and model routing. |
 | [skills/](skills/) | Installable reusable workflows. |
-| [playbooks/](playbooks/) | End-to-end workflows by project type. |
-| [prompts/](prompts/) | Copy-paste prompt templates derived from the operating system. |
+| [playbooks/](playbooks/) | End-to-end workflows by project type and research-to-execution flow. |
+| [prompts/](prompts/) | Copy-paste prompt templates and bootstrap prompts derived from the operating system. |
 | [adapters/](adapters/) | Tool-specific mapping for Codex, Claude Code, Cursor, Cline, Roo, Gemini CLI, Aider, and OpenHands. |
 | [examples/](examples/) | Worked examples for planning, refactoring, code review, debugging reports, and prompting. |
 | [evaluation/](evaluation/) | Protocol for testing whether Aurelian improves agent behavior. |
