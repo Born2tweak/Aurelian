@@ -28,6 +28,7 @@ Intelligence is not the accumulation of knowledge. Intelligence is the allocatio
 | [playbooks/](playbooks/) | End-to-end workflows by project type and research-to-execution flow. |
 | [prompts/](prompts/) | Copy-paste prompt templates and bootstrap prompts derived from the operating system. |
 | [adapters/](adapters/) | Tool-specific mapping for Codex, Claude Code, Cursor, Cline, Roo, Gemini CLI, Aider, and OpenHands. |
+| [templates/aurelian-project/](templates/aurelian-project/) | Reusable project scaffold for making any repository Aurelian-compatible. |
 | [examples/](examples/) | Worked examples for planning, refactoring, code review, debugging reports, and prompting. |
 | [evaluation/](evaluation/) | Protocol for testing whether Aurelian improves agent behavior. |
 | [self-improvement/](self-improvement/) | How Aurelian changes, versions, audits, and prunes itself. |

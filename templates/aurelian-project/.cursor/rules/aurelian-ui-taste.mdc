@@ -1,0 +1,15 @@
+---
+description: Use for UI, UX, product experience, design systems, naming, architecture taste, and documentation polish.
+alwaysApply: false
+---
+
+# Aurelian UI And Taste
+
+Optimize for the maintainer's and user's future attention.
+
+- Match existing patterns before inventing new structure.
+- Prefer clear names, explicit contracts, and boring APIs that are hard to misuse.
+- Add abstractions only when they reduce real future complexity.
+- For UI, identify the user's next decision, rank visible elements by relevance, and make hierarchy visible through layout, type, spacing, and affordance.
+- Verify UI with rendered evidence before claiming it works. Check responsive, empty, loading, error, and long-content states when they are in scope.
+- Documentation should lead with the reader's task, name assumptions, and avoid unsupported project facts.

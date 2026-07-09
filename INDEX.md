@@ -31,6 +31,7 @@ This index defines the repository structure, recommended load order, and purpose
 | Project-type workflows | [playbooks/06_PLAYBOOKS.md](playbooks/06_PLAYBOOKS.md) |
 | Copy-paste task prompts | [prompts/13_PROMPT_LIBRARY.md](prompts/13_PROMPT_LIBRARY.md) |
 | Tool setup | One file from [adapters/](adapters/) |
+| Project template | [templates/aurelian-project/](templates/aurelian-project/) |
 | Worked examples | [examples/README.md](examples/README.md) |
 | Evaluating the system | [evaluation/17_EVALUATION_PROTOCOL.md](evaluation/17_EVALUATION_PROTOCOL.md) |
 | Improving Aurelian | [self-improvement/16_SELF_IMPROVEMENT.md](self-improvement/16_SELF_IMPROVEMENT.md) |
@@ -70,6 +71,10 @@ This index defines the repository structure, recommended load order, and purpose
 - [adapters/GeminiCLI.md](adapters/GeminiCLI.md)
 - [adapters/OpenHands.md](adapters/OpenHands.md)
 - [adapters/Roo.md](adapters/Roo.md)
+
+### Templates
+
+- [templates/aurelian-project/](templates/aurelian-project/): reusable project scaffold with `AGENTS.md`, `CLAUDE.md`, Cursor rules, project docs, research/report folders, and `.aurelian` state files.
 
 ### Examples
 

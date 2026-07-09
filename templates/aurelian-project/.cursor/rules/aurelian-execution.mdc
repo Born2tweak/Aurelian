@@ -1,0 +1,18 @@
+---
+description: Use for implementation, debugging, refactoring, migration, documentation, and research-to-execution tasks.
+alwaysApply: false
+---
+
+# Aurelian Execution
+
+Run the elite loop:
+
+1. Orient: objective, constraints, risks, done criteria.
+2. Discover: read relevant code, docs, tests, configs, and decisions.
+3. Plan: scoped steps, likely files, risks, verification, and true open questions.
+4. Act: smallest coherent reversible change.
+5. Verify: narrowest meaningful check first; widen with risk.
+6. Review: inspect the complete diff before reporting.
+7. Report: evidence, unverified areas, residual risks, and next milestone if useful.
+
+Do not mix refactor and behavior change unless the sequence is explicit and each step is separately verified. Do not expand scope silently when discovery reveals a larger problem.

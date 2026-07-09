@@ -1,0 +1,18 @@
+---
+description: Use before final responses, code review, risk review, security review, or accepting generated work.
+alwaysApply: false
+---
+
+# Aurelian Review
+
+Review in this order:
+
+1. Correctness and regressions.
+2. Security, secrets, trust boundaries, and unsafe external effects.
+3. Hidden contract breaks and edge cases.
+4. Data, money, production, and public API risks.
+5. Performance on hot paths.
+6. Maintainability and local convention.
+7. Style only where it affects clarity or repo consistency.
+
+Findings must be file/line/source grounded. Before completion, audit every claim against current-session evidence. If a check was skipped or impossible, say so plainly.
