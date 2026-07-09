@@ -26,7 +26,7 @@ And the OS itself is: **model-agnostic** (core files name products only when sou
 
 - **Prime constraint:** no file exists because it is interesting. Every file exists because removing it would make the OS materially worse.
 - **One concept, one home.** Each concept is defined in exactly one file; others cross-reference it. Canonical homes:
-  - Immutable laws -> 01. Attention/reasoning/metacognition -> 02. Task algorithms -> 03. Durable memory policy -> 04. Skill definitions -> 05. Project workflows -> 06. Decision trees (ask/proceed/stop/delegate) -> 07. Verification ladder, evidence discipline, confidence levels -> 08. Engineering axioms -> 09. Taste heuristics -> 10. Domain acquisition -> 11. Hypothesis/evidence method -> 12. Copy-paste prompts -> 13. Tool mappings -> 14. Worked examples -> 15. OS evolution -> 16.
+  - Immutable laws -> 01. Attention/reasoning/metacognition -> 02. Task algorithms -> 03. Durable memory policy -> 04. Skill definitions -> 05. Project workflows -> 06. Decision trees (ask/proceed/stop/delegate) -> 07. Verification ladder, evidence discipline, confidence levels -> 08. Engineering axioms -> 09. Taste heuristics -> 10. Domain acquisition -> 11. Hypothesis/evidence method -> 12. Model/tool routing -> core/13. Copy-paste prompts -> prompts/13. Tool mappings -> adapters. Worked examples -> examples. OS evolution -> 16. Research-to-execution workflow -> playbooks/18.
 - **Executable over inspirational.** Every section must change what the model does next, or it is cut.
 - **Constitutional form.** State the governing law, then the algorithm, then the checklist.
 - **Progressive disclosure.** The Constitution is always loaded; everything else loads on demand.
@@ -57,8 +57,9 @@ This OS is derived from a research dossier with an explicit reliability hierarch
    |-- 09_ENGINEERING_PHILOSOPHY   (why the laws exist; grounds 01 and 10)
    |      `-- 10_TASTE_AND_DESIGN  (judgment; used by 03 review/UI steps)
    |-- 11_DOMAIN_INTELLIGENCE      (unfamiliar fields; uses 12's evidence ladder)
-   |-- 05_SKILLS_LIBRARY           (packaged workflows; composes 03 + 08 + 13)
-   |-- 06_PLAYBOOKS                (project workflows; composes 03 + 05)
+   |-- 05_SKILLS_LIBRARY           (packaged workflows; composes 03 + 08)
+   |-- 06_PLAYBOOKS                (project workflows; composes 03 + 05; uses 18 for research-to-execution)
+   |-- 13_MODEL_ROUTER             (task-loaded routing; extends 02 + 07 for tools, models, delegation, token budget, and workflow routing)
    |-- 13_PROMPT_LIBRARY           (copy-paste text; operationalizes 05 skills)
    |-- adapters/                (tool mapping; depends on 04's memory hierarchy)
    |-- examples/                (worked demonstrations of 03, 08, 10, 13)
@@ -67,7 +68,7 @@ This OS is derived from a research dossier with an explicit reliability hierarch
 
 ## 7. Load order by task type
 
-Always: `01_CONSTITUTION.md`. Then:
+Always: `01_CONSTITUTION.md`. For standard coding work, the permanent kernel is `01 -> 02 -> 03 -> 07 -> 08`. Then add task-specific files:
 
 | Task type | Load |
 |---|---|
@@ -77,7 +78,8 @@ Always: `01_CONSTITUTION.md`. Then:
 | Architecture / design | 02 -> 09 -> 10 -> 07 |
 | Code review | 05 (section Reviewer) -> 08 -> 10 |
 | New project / greenfield | 06 -> 05 (section Setup) -> 10 |
-| Research / unfamiliar domain | 11 -> 12 |
+| Research / unfamiliar domain | 11 -> 12 (+ 18 when research must become execution) |
+| Model/tool/delegation/token/workflow routing | 13_MODEL_ROUTER (+ 02 and 07 when sustained reasoning or branch decisions matter) |
 | UI work | 03 (section UI) -> 10 -> 08 (visual verification) |
 | Migration / legacy | 06 (section Migration, section Legacy) -> 03 -> 08 |
 | Long-running / multi-phase | 02 -> 07 (section Delegation) -> 04 |
@@ -85,3 +87,5 @@ Always: `01_CONSTITUTION.md`. Then:
 | Improving this OS itself | 16 -> 04 |
 
 Tool-specific setup: read the matching file in `../adapters/` once per environment, not per task.
+
+`13_MODEL_ROUTER.md` is task-loaded core, not permanent kernel. Load it when choosing tools, models, delegation strategy, token budget, or project workflow routing; keep the always-loaded kernel to `01`, `02`, `03`, `07`, and `08` for standard operation.
