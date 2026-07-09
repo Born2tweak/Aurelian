@@ -64,6 +64,8 @@ This index defines the repository structure, recommended load order, and purpose
 ### Tooling
 
 - [adapters/Aider.md](adapters/Aider.md)
+- [adapters/Antigravity.md](adapters/Antigravity.md)
+- [adapters/ChatGPTWeb.md](adapters/ChatGPTWeb.md)
 - [adapters/ClaudeCode.md](adapters/ClaudeCode.md)
 - [adapters/Cline.md](adapters/Cline.md)
 - [adapters/Codex.md](adapters/Codex.md)

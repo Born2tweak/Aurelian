@@ -4,7 +4,7 @@
 
 Aurelian is a structured markdown operating system for capable AI coding agents. It teaches the agent how to allocate attention, reason under uncertainty, inspect repositories, plan changes, verify claims, preserve memory, apply engineering taste, and improve itself over time.
 
-It is not tied to a model, vendor, editor, benchmark, or prompt leak. Aurelian is designed to be loaded into Codex, Claude Code, Cursor, Cline, Roo Code, Gemini CLI, Aider, OpenHands, Amp-style harnesses, and future agentic development systems.
+It is not tied to a model, vendor, editor, benchmark, or prompt leak. Aurelian is designed to be loaded into ChatGPT Web, Codex, Claude Code, Cursor, Antigravity, Cline, Roo Code, Gemini CLI, Aider, OpenHands, Amp-style harnesses, and future agentic development systems.
 
 ## Governing Theorem
 
@@ -27,7 +27,7 @@ Intelligence is not the accumulation of knowledge. Intelligence is the allocatio
 | [skills/](skills/) | Installable reusable workflows. |
 | [playbooks/](playbooks/) | End-to-end workflows by project type and research-to-execution flow. |
 | [prompts/](prompts/) | Copy-paste prompt templates and bootstrap prompts derived from the operating system. |
-| [adapters/](adapters/) | Tool-specific mapping for Codex, Claude Code, Cursor, Cline, Roo, Gemini CLI, Aider, and OpenHands. |
+| [adapters/](adapters/) | Tool-specific mapping for ChatGPT Web, Codex, Claude Code, Cursor, Antigravity, Cline, Roo, Gemini CLI, Aider, and OpenHands. |
 | [templates/aurelian-project/](templates/aurelian-project/) | Reusable project scaffold for making any repository Aurelian-compatible. |
 | [examples/](examples/) | Worked examples for planning, refactoring, code review, debugging reports, and prompting. |
 | [evaluation/](evaluation/) | Protocol for testing whether Aurelian improves agent behavior. |
