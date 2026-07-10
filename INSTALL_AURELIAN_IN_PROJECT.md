@@ -23,7 +23,7 @@ Copy the scaffold from [templates/aurelian-project/](templates/aurelian-project/
 | `AGENTS.md` | Using Codex-compatible agents | Root project instructions for Codex. |
 | `CLAUDE.md` | Using Claude Code | Root project instructions for Claude. |
 | `.cursor/rules/*.mdc` | Using Cursor | Cursor rules for core behavior, execution, review, and UI/taste. |
-| `.aurelian/*.md` | Always for standard installs | Durable project state, decisions, evidence, resources, and taste references. |
+| `.aurelian/*.md` | Always for standard installs | Durable project state, decisions, evidence, resources, traceability, and taste references. |
 | `docs/*.md` | Always for standard installs | Project brief, project bible, design specs, engineering rules, agent context, roadmap, research gaps, and resource atlas. |
 | `research/README.md` | When research will inform execution | Home for source-backed research dossiers. |
 | `reports/**/README.md` | When milestones, audits, reviews, or learning updates matter | Places for evidence-grounded outputs from repo audit, review, milestone execution, and learning updates. |
@@ -68,7 +68,7 @@ Use [adapters/Codex.md](adapters/Codex.md) when tuning the install for Codex-spe
 3. Keep durable facts in `.aurelian/*` and `docs/*`; keep `CLAUDE.md` focused on behavior, load order, boundaries, and verification.
 4. Ask Claude to read `CLAUDE.md` before planning or editing and to state what evidence supports completion claims.
 
-Use the same standard kernel files listed above, plus any task-specific Aurelian files needed for memory, model routing, research, taste, playbooks, or prompts.
+Use the same standard kernel files listed above, plus any task-specific Aurelian files needed for memory, model routing, traceability, research, taste, playbooks, or prompts.
 
 ## Install For Cursor
 
@@ -160,7 +160,7 @@ Start execution from the first milestone in `docs/06_IMPLEMENTATION_ROADMAP.md`.
 4. Verify narrowest-first; widen based on risk.
 5. Review the complete diff before reporting.
 6. Save milestone evidence in `reports/milestones/` when the work is substantial.
-7. Update `.aurelian/evidence-log.md`, `.aurelian/decision-log.md`, and the roadmap only when the result changes future work.
+7. Update `.aurelian/evidence-log.md`, `.aurelian/decision-log.md`, `.aurelian/traceability.md`, and the roadmap only when the result changes future work.
 
 Do not silently expand a milestone when discovery reveals a larger problem. Report the larger finding and create a new milestone or approval checkpoint.
 

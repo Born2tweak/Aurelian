@@ -26,7 +26,7 @@ And the OS itself is: **model-agnostic** (core files name products only when sou
 
 - **Prime constraint:** no file exists because it is interesting. Every file exists because removing it would make the OS materially worse.
 - **One concept, one home.** Each concept is defined in exactly one file; others cross-reference it. Canonical homes:
-  - Immutable laws -> 01. Attention/reasoning/metacognition -> 02. Task algorithms -> 03. Durable memory policy -> 04. Skill definitions -> 05. Project workflows -> 06. Decision trees (ask/proceed/stop/delegate) -> 07. Verification ladder, evidence discipline, confidence levels -> 08. Engineering axioms -> 09. Taste heuristics -> 10. Domain acquisition -> 11. Hypothesis/evidence method -> 12. Model/tool routing -> core/13. Copy-paste prompts -> prompts/13. Tool mappings -> adapters. Worked examples -> examples. OS evolution -> 16. Research-to-execution workflow -> playbooks/18.
+  - Immutable laws -> 01. Attention/reasoning/metacognition -> 02. Task algorithms -> 03. Durable memory policy -> 04. Skill definitions -> 05. Project workflows -> 06. Decision trees (ask/proceed/stop/delegate) -> 07. Verification ladder, evidence discipline, confidence levels -> 08. Engineering axioms -> 09. Taste heuristics -> 10. Domain acquisition -> 11. Hypothesis/evidence method -> 12. Model/tool routing -> core/13. Traceability -> core/14. Prompt generation -> core/15 and prompts/17. Evaluation -> core/16. Copy-paste prompts -> prompts/13. Tool mappings -> adapters. Worked examples -> examples. OS evolution -> self-improvement/16. Research-to-execution workflow -> playbooks/18.
 - **Executable over inspirational.** Every section must change what the model does next, or it is cut.
 - **Constitutional form.** State the governing law, then the algorithm, then the checklist.
 - **Progressive disclosure.** The Constitution is always loaded; everything else loads on demand.
@@ -60,6 +60,8 @@ This OS is derived from a research dossier with an explicit reliability hierarch
    |-- 05_SKILLS_LIBRARY           (packaged workflows; composes 03 + 08)
    |-- 06_PLAYBOOKS                (project workflows; composes 03 + 05; uses 18 for research-to-execution)
    |-- 13_MODEL_ROUTER             (task-loaded routing; extends 02 + 07 for tools, models, delegation, token budget, and workflow routing)
+   |-- 14_TRACEABILITY_ENGINE      (task-loaded graph and evidence chain; extends 04 + 08 + 12 + 13)
+   |-- 15_PROMPT_GENERATION_ENGINE (task-loaded prompt-suite generation; uses 13 for routing, 14 for traceability, and 08 for evidence standards)
    |-- 13_PROMPT_LIBRARY           (copy-paste text; operationalizes 05 skills)
    |-- adapters/                (tool mapping; depends on 04's memory hierarchy)
    |-- examples/                (worked demonstrations of 03, 08, 10, 13)
@@ -80,6 +82,8 @@ Always: `01_CONSTITUTION.md`. For standard coding work, the permanent kernel is 
 | New project / greenfield | 06 -> 05 (section Setup) -> 10 |
 | Research / unfamiliar domain | 11 -> 12 (+ 18 when research must become execution) |
 | Model/tool/delegation/token/workflow routing | 13_MODEL_ROUTER (+ 02 and 07 when sustained reasoning or branch decisions matter) |
+| Traceability, knowledge graph, or evidence chain | 14_TRACEABILITY_ENGINE -> 24_TRACEABILITY_SKILL -> 08 |
+| Prompt suite generation | 15_PROMPT_GENERATION_ENGINE -> 13_MODEL_ROUTER -> 14_TRACEABILITY_ENGINE -> 08 (+ 25_PROMPT_GENERATION_SKILL and prompts/17 for portable use) |
 | UI work | 03 (section UI) -> 10 -> 08 (visual verification) |
 | Migration / legacy | 06 (section Migration, section Legacy) -> 03 -> 08 |
 | Long-running / multi-phase | 02 -> 07 (section Delegation) -> 04 |
@@ -88,4 +92,4 @@ Always: `01_CONSTITUTION.md`. For standard coding work, the permanent kernel is 
 
 Tool-specific setup: read the matching file in `../adapters/` once per environment, not per task.
 
-`13_MODEL_ROUTER.md` is task-loaded core, not permanent kernel. Load it when choosing tools, models, delegation strategy, token budget, or project workflow routing; keep the always-loaded kernel to `01`, `02`, `03`, `07`, and `08` for standard operation.
+`13_MODEL_ROUTER.md`, `14_TRACEABILITY_ENGINE.md`, and `15_PROMPT_GENERATION_ENGINE.md` are task-loaded core, not permanent kernel. Load `13` when choosing tools, models, delegation strategy, token budget, or project workflow routing. Load `14` when following or repairing evidence chains. Load `15` when generating prompt suites, prompt manifests, or model-specific prompt variants. Keep the always-loaded kernel to `01`, `02`, `03`, `07`, and `08` for standard operation.

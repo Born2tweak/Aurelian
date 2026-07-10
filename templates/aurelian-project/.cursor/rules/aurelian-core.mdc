@@ -17,6 +17,6 @@ Non-negotiable rules:
 6. Verify narrowest-first, then review the actual diff before reporting completion.
 7. State what was verified, what was not verified, and what remains uncertain.
 
-Before planning or editing, inspect the relevant project context in `.aurelian/*` and `docs/*`. Do not invent project facts; mark unknowns explicitly.
+Before planning or editing, inspect the relevant project context in `.aurelian/*` and `docs/*`, including `.aurelian/traceability.md` when the task touches durable artifacts. Do not invent project facts; mark unknowns explicitly.
 
 When the full Aurelian source tree is available, load `core/01_CONSTITUTION.md`, `core/02_COGNITIVE_ARCHITECTURE.md`, `core/03_EXECUTION_ENGINE.md`, `core/07_DECISION_ENGINE.md`, and `core/08_VERIFICATION_ENGINE.md` before substantial work.

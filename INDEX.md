@@ -28,6 +28,7 @@ This index defines the repository structure, recommended load order, and purpose
 | Engineering judgment or architecture | [core/09_ENGINEERING_PHILOSOPHY.md](core/09_ENGINEERING_PHILOSOPHY.md), [core/10_TASTE_AND_DESIGN.md](core/10_TASTE_AND_DESIGN.md) |
 | Unknown domains | [core/11_DOMAIN_INTELLIGENCE.md](core/11_DOMAIN_INTELLIGENCE.md), [core/12_SCIENTIFIC_REASONING.md](core/12_SCIENTIFIC_REASONING.md) |
 | Model/tool routing | [core/13_MODEL_ROUTER.md](core/13_MODEL_ROUTER.md) |
+| Traceability, knowledge graph, or evidence chain | [core/14_TRACEABILITY_ENGINE.md](core/14_TRACEABILITY_ENGINE.md), [skills/24_TRACEABILITY_SKILL.md](skills/24_TRACEABILITY_SKILL.md) |
 | Reusable workflows | [skills/05_SKILLS_LIBRARY.md](skills/05_SKILLS_LIBRARY.md) |
 | UI taste review | [skills/20_TASTE_REVIEW_SKILL.md](skills/20_TASTE_REVIEW_SKILL.md) |
 | Resource discovery before building | [skills/21_RESOURCE_DISCOVERY_SKILL.md](skills/21_RESOURCE_DISCOVERY_SKILL.md) |
@@ -63,6 +64,7 @@ This index defines the repository structure, recommended load order, and purpose
 - [core/11_DOMAIN_INTELLIGENCE.md](core/11_DOMAIN_INTELLIGENCE.md): how to enter unfamiliar fields safely.
 - [core/12_SCIENTIFIC_REASONING.md](core/12_SCIENTIFIC_REASONING.md): hypothesis testing, evidence, causality, and measurement.
 - [core/13_MODEL_ROUTER.md](core/13_MODEL_ROUTER.md): routing work across models, harnesses, research tools, execution agents, reviewers, and future tools.
+- [core/14_TRACEABILITY_ENGINE.md](core/14_TRACEABILITY_ENGINE.md): knowledge graph contract for linking vision, discovery, research, reasoning, decisions, specs, milestones, source files, tests, evidence, review, lessons, updated research, reports, commits, and roadmap updates.
 - [core/16_EVALUATION_ENGINE.md](core/16_EVALUATION_ENGINE.md): quality scoring, project evaluation, benchmark discipline, evidence references, confidence levels, and Aurelian self-evaluation.
 
 ### Workflow Modules
@@ -72,6 +74,7 @@ This index defines the repository structure, recommended load order, and purpose
 - [skills/21_RESOURCE_DISCOVERY_SKILL.md](skills/21_RESOURCE_DISCOVERY_SKILL.md): discover and evaluate existing resources before building, including docs, repos, registries, design systems, UI/editor libraries, licenses, maturity, and build/wrap/buy/adapt/avoid decisions.
 - [skills/22_REVIEW_SWARM.md](skills/22_REVIEW_SWARM.md): specialist review swarm protocol for high-risk work, UI/editor systems, and AI-generated interfaces.
 - [skills/23_RESEARCH_PIPELINE_GENERATOR.md](skills/23_RESEARCH_PIPELINE_GENERATOR.md): automatically determines the research reports a project needs before implementation, including categories, specialists, dependencies, confidence, implementation impact, dependency graph, and execution order.
+- [skills/24_TRACEABILITY_SKILL.md](skills/24_TRACEABILITY_SKILL.md): audit and repair traceability links, stale docs, conflicting decisions, undocumented code, unimplemented specs, orphaned artifacts, and research with no downstream impact.
 - [skills/26_PROJECT_EVALUATION_SKILL.md](skills/26_PROJECT_EVALUATION_SKILL.md): evaluates projects, milestones, repositories, model routes, and Aurelian effectiveness with scorecards, confidence levels, evidence references, trends, fixes, and next milestones.
 - [playbooks/06_PLAYBOOKS.md](playbooks/06_PLAYBOOKS.md): end-to-end workflows for SaaS, APIs, CLIs, monorepos, migrations, legacy code, and greenfield projects.
 - [playbooks/18_RESEARCH_TO_EXECUTION_OS.md](playbooks/18_RESEARCH_TO_EXECUTION_OS.md): full research-to-execution workflow from intake through discovery, research, synthesis, repo audit, roadmap, execution, review swarm, and learning update.
@@ -94,7 +97,7 @@ This index defines the repository structure, recommended load order, and purpose
 
 ### Templates
 
-- [templates/aurelian-project/](templates/aurelian-project/): reusable project scaffold with `AGENTS.md`, `CLAUDE.md`, Cursor rules, project docs, research/report folders, and `.aurelian` state files.
+- [templates/aurelian-project/](templates/aurelian-project/): reusable project scaffold with `AGENTS.md`, `CLAUDE.md`, Cursor rules, project docs, research/report folders, traceability registry, and `.aurelian` state files.
 - [templates/aurelian-project/reports/evaluation/README.md](templates/aurelian-project/reports/evaluation/README.md): project-local evaluation report guidance.
 
 ### Examples

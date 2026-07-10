@@ -1,6 +1,6 @@
 # 18_RESEARCH_TO_EXECUTION_OS -- From Unknown Domain to Verified Change
 
-This playbook turns research into execution without letting either side dominate. Research without implementation becomes theater; implementation without research becomes fluent guessing. The workflow composes `11_DOMAIN_INTELLIGENCE.md`, `12_SCIENTIFIC_REASONING.md`, `03_EXECUTION_ENGINE.md`, `07_DECISION_ENGINE.md`, `08_VERIFICATION_ENGINE.md`, `13_MODEL_ROUTER.md`, and `../skills/23_RESEARCH_PIPELINE_GENERATOR.md`.
+This playbook turns research into execution without letting either side dominate. Research without implementation becomes theater; implementation without research becomes fluent guessing. The workflow composes `11_DOMAIN_INTELLIGENCE.md`, `12_SCIENTIFIC_REASONING.md`, `03_EXECUTION_ENGINE.md`, `07_DECISION_ENGINE.md`, `08_VERIFICATION_ENGINE.md`, `13_MODEL_ROUTER.md`, `14_TRACEABILITY_ENGINE.md`, and `../skills/23_RESEARCH_PIPELINE_GENERATOR.md`.
 
 Use it when a project begins with material uncertainty: unfamiliar domain, new market, ambiguous product requirements, high-risk architecture, or a codebase whose behavior is not yet trusted.
 
@@ -123,6 +123,7 @@ Output: severity-ranked review findings, fix evidence, and residual-risk list.
 3. Delete or revise stale assumptions discovered during execution.
 4. Report what was verified, what was not, and what should be researched or executed next.
 5. Feed recurring misses into the smallest durable rule or checklist.
+6. Update traceability links from research, decisions, specs, milestones, source files, tests, evidence, review, and lessons when the chain changes.
 
 Output: evidence-grounded closeout and recommended next milestone.
 
@@ -137,3 +138,4 @@ Output: evidence-grounded closeout and recommended next milestone.
 - Each executed milestone has current-session evidence.
 - Review findings were evidence-grounded and ranked.
 - Durable lessons were captured only when they change future decisions.
+- Traceability links connect research, decisions, specs, milestones, source files, tests, evidence, review, lessons, and updated research where those artifacts exist.

@@ -113,6 +113,41 @@ research or propose implementation before prerequisite discovery/research is
 complete.
 ```
 
+## Prompt Suite Generator
+
+For the complete standalone version, use [17_PROMPT_SUITE_GENERATOR.md](17_PROMPT_SUITE_GENERATOR.md).
+
+```text
+Project or milestone: [project idea, repository state, target artifact,
+current milestone, or unresolved problem].
+Available models/tools: [ChatGPT Web, Codex, Claude Opus, Claude Sonnet,
+Fable, Cursor, Antigravity, future tools, and actual capabilities].
+Constraints: [token budget, repo access, browser/research access, autonomy
+level, task risk, desired output format, required evidence, approval gates].
+
+Generate a complete, dependency-ordered prompt suite. Include prompts for only
+the categories needed to move the work forward: discovery, research planning,
+individual research reports, research criticism, contradiction review,
+knowledge synthesis, architecture decisions, repository audits, gap analysis,
+roadmap creation, milestone execution, testing, debugging, UI/taste review,
+security review, performance review, accessibility review, documentation
+updates, learning capture, pre-push review, and deployment readiness.
+
+For every prompt include: prompt ID, class (Generation/Analysis/Execution),
+purpose, target tool/model, fallback model/tool, required inputs, expected
+outputs, upstream artifacts, downstream artifacts, risk level, estimated
+context size, token budget, evidence requirements, stop condition, approval
+gates, autonomy level, desired output format, traceability IDs, and prompt
+body.
+
+Also output: recommended workflow, routing decisions, Prompt Suite Manifest,
+complete ordered prompt suite, fallback routing, artifact map, verification
+requirements, approval gates, and open risks. Avoid giant prompts, duplicated
+instructions, unnecessary full context, premium-model waste, mixed
+research-plus-implementation without justification, missing deliverables,
+missing evidence standards, and missing stop conditions.
+```
+
 ## Teacher
 
 ```text

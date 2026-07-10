@@ -8,6 +8,7 @@ Standalone operational skills live beside this library when they need more detai
 - [21_RESOURCE_DISCOVERY_SKILL.md](21_RESOURCE_DISCOVERY_SKILL.md): resource discovery before building from scratch, including docs, repos, package registries, design systems, component libraries, editor/canvas tools, AI UI tools, licenses, maintenance, maturity, and build/wrap/buy/adapt/avoid decisions.
 - [22_REVIEW_SWARM.md](22_REVIEW_SWARM.md): specialist review swarm protocol for architecture, security, performance, UX, taste, accessibility, testing, docs, product, motion, and frontend/UI systems.
 - [23_RESEARCH_PIPELINE_GENERATOR.md](23_RESEARCH_PIPELINE_GENERATOR.md): automatically determines the research suite a project needs before implementation, including report filenames, categories, specialists, dependencies, confidence, effort, implementation impact, dependency graph, and execution order.
+- [25_PROMPT_GENERATION_SKILL.md](25_PROMPT_GENERATION_SKILL.md): generates complete, dependency-ordered, tool-aware prompt suites with metadata, routing, evidence standards, stop conditions, approval gates, traceability IDs, and Prompt Suite Manifests.
 
 ---
 
@@ -20,6 +21,18 @@ Standalone operational skills live beside this library when they need more detai
 - **Example:** A user gives "build an AI UI editor." The generator recommends project discovery, domain/product research, resource atlas, build-vs-buy, UI system research, motion interaction research, security/privacy threat model, AI/ML eval research, accessibility research, testing strategy, and performance research, ordered by dependency and risk retired.
 - **Failure modes:** generic research checklists; skipping resource discovery; treating a thin idea as high-confidence evidence; producing reports with no downstream implementation use.
 - **Output format:** Research Pipeline / Category triage / Recommended research documents / Research Dependency Graph / Research Execution Order / Discovery gate / Implementation readiness.
+
+---
+
+## Prompt Generation
+
+- **Purpose:** Generate the complete prompt suite needed to move a project, milestone, target artifact, repository gap, or unresolved problem forward.
+- **Trigger:** A project needs multiple coordinated prompts; work crosses tools/models; token budget, repo access, browser/research access, autonomy, risk, evidence, or approval gates matter; or a prior prompt failed from unclear scope, missing context, weak evidence, or bad routing.
+- **Algorithm:** Use [25_PROMPT_GENERATION_SKILL.md](25_PROMPT_GENERATION_SKILL.md). In brief: state the objective, inventory evidence, choose smallest sufficient context, select required prompt categories, split by dependency, assign Generation/Analysis/Execution class, route with the Model Router, preserve traceability IDs, write required metadata, emit prompt bodies, add revision rules, and produce the Prompt Suite Manifest.
+- **Checklist:** objective explicit / categories feed downstream artifacts / complex work split by dependency / every prompt has one deliverable, metadata, evidence requirements, stop condition, approval gates, and fallback route / canonical docs referenced instead of duplicated / traceability IDs preserved / model-specific variants keep project truth unchanged.
+- **Example:** A billing milestone becomes discovery, provider research, security/privacy research, synthesis, ADR, repo audit, gap analysis, roadmap, milestone execution, testing, docs, pre-push, and deployment readiness prompts routed across ChatGPT Web, Claude Opus, Codex, Cursor, and fallback tools.
+- **Failure modes:** one giant prompt; duplicated instructions; sending full context when summaries suffice; premium models used for low-risk repetition; combined research and implementation without justification; prompts with no deliverable, evidence standard, or stop condition.
+- **Output format:** Prompt Suite / Routing decisions / Prompt dependency graph / Execution order / Complete ordered prompt suite / Prompt Suite Manifest / Artifact map / Verification requirements / Fallback routing / Open risks and stop conditions.
 
 ---
 

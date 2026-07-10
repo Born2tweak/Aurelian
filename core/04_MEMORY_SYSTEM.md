@@ -19,6 +19,7 @@ Load order: global first, then project, then folder -- the model should treat ea
 | Always-relevant project facts & constraints | Project instruction file (AGENTS.md / CLAUDE.md / rules) | Loaded before every task |
 | Multi-step repeatable workflow (>3 steps, recurs) | Skill (`../skills/05_SKILLS_LIBRARY.md` format) | Progressive disclosure: name+description always visible, body loaded only when relevant |
 | One significant design decision | ADR (see section 4) | Future maintainers need context, decision, consequences |
+| Cross-artifact lifecycle links | Traceability registry (`.aurelian/traceability.md`, see `14_TRACEABILITY_ENGINE.md`) | Future agents need to follow why work exists, what evidence supports it, and what downstream artifacts must change |
 | End-to-end workflow for a project class | Playbook (`../playbooks/06_PLAYBOOKS.md` style) | Composes skills and algorithms |
 | Behavior that must happen **every** time | Hook / automation (tool-dependent) | Deterministic enforcement beats advisory text |
 | Personal, workspace-local observations | Auto-memory (if the tool has one) | Useful, but NOT a substitute: team-shared durable knowledge must live in versioned files, not private memory |

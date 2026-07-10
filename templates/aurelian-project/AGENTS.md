@@ -26,7 +26,7 @@ When the full Aurelian source tree is available, load the standard kernel before
 4. `core/07_DECISION_ENGINE.md`
 5. `core/08_VERIFICATION_ENGINE.md`
 
-Load task-specific Aurelian files only when relevant: memory, taste/design, domain intelligence, model routing, playbooks, skills, prompts, and the adapter for the active tool.
+Load task-specific Aurelian files only when relevant: memory, taste/design, domain intelligence, model routing, traceability, playbooks, skills, prompts, and the adapter for the active tool.
 
 ## Project Context
 
@@ -36,6 +36,7 @@ Before planning or editing, inspect the smallest set of project files that can a
 - `.aurelian/decision-log.md`
 - `.aurelian/evidence-log.md`
 - `.aurelian/resource-index.md`
+- `.aurelian/traceability.md`
 - `docs/00_PROJECT_BRIEF.md`
 - `docs/01_PROJECT_BIBLE.md`
 - `docs/02_TECHNICAL_DESIGN_SPEC.md`

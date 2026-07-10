@@ -43,7 +43,7 @@ Use these as defaults, not dogma. The active session's actual tools decide.
 3. **Eliminate tools that cannot produce the needed evidence.** A tool that cannot run the relevant check may advise, but it cannot be the verifier.
 4. **Match judgment profile.** Use deep synthesis tools for ambiguity and taste; use repo-native tools for implementation and proof; use editor tools for local navigation and incremental edits.
 5. **Set autonomy.** For reversible low-risk work, allow execution. For destructive, external, credentialed, financial, legal, or public-contract work, require an explicit checkpoint (`07_DECISION_ENGINE.md` section 1).
-6. **Assign artifacts.** Every routed task gets an output shape: plan, source table, ontology map, patch, test result, review findings, ADR, or handoff note.
+6. **Assign artifacts.** Every routed task gets an output shape: plan, source table, ontology map, patch, test result, review findings, ADR, traceability update, or handoff note.
 7. **Verify before promotion.** Advice becomes an executable plan only after source review; code becomes accepted only after the verification ladder in `08_VERIFICATION_ENGINE.md`.
 
 ## 4. Routing matrix
@@ -79,7 +79,8 @@ Every cross-tool handoff must include:
 4. Decisions already made and decisions still open.
 5. Constraints and forbidden actions.
 6. Verification required before completion can be claimed.
-7. Exact output format requested.
+7. Trace IDs or parent/child links from `14_TRACEABILITY_ENGINE.md` when the task produces or changes durable artifacts.
+8. Exact output format requested.
 
 Do not hand off vibes. Hand off evidence, constraints, and the next decision.
 
