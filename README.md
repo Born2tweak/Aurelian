@@ -26,14 +26,14 @@ To apply Aurelian to an existing project repository, use [INSTALL_AURELIAN_IN_PR
 |---|---|
 | [INDEX.md](INDEX.md) | Load order, file map, and navigation guide. |
 | [INSTALL_AURELIAN_IN_PROJECT.md](INSTALL_AURELIAN_IN_PROJECT.md) | Official guide for installing Aurelian into any project repository. |
-| [core/](core/) | The operating kernel: constitution, cognition, execution, memory, decisions, verification, philosophy, taste, domain intelligence, scientific reasoning, and model routing. |
-| [skills/](skills/) | Installable reusable workflows, including operational taste review, resource discovery, research pipeline generation, and review swarm protocols. |
+| [core/](core/) | The operating kernel: constitution, cognition, execution, memory, decisions, verification, philosophy, taste, domain intelligence, scientific reasoning, model routing, and evaluation. |
+| [skills/](skills/) | Installable reusable workflows, including operational taste review, resource discovery, research pipeline generation, review swarm protocols, and project evaluation. |
 | [playbooks/](playbooks/) | End-to-end workflows by project type and research-to-execution flow. |
 | [prompts/](prompts/) | Copy-paste prompt templates and bootstrap prompts derived from the operating system. |
 | [adapters/](adapters/) | Tool-specific mapping for ChatGPT Web, Codex, Claude Code, Cursor, Antigravity, Cline, Roo, Gemini CLI, Aider, and OpenHands. |
 | [templates/aurelian-project/](templates/aurelian-project/) | Reusable project scaffold for making any repository Aurelian-compatible. |
 | [examples/](examples/) | Worked examples for planning, refactoring, code review, debugging reports, and prompting. |
-| [evaluation/](evaluation/) | Protocol for testing whether Aurelian improves agent behavior. |
+| [evaluation/](evaluation/) | Protocols and scorecards for testing whether Aurelian improves agent behavior, evaluating projects, and benchmarking models, milestones, routes, and repositories. |
 | [self-improvement/](self-improvement/) | How Aurelian changes, versions, audits, and prunes itself. |
 
 ## Provenance

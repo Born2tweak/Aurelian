@@ -33,6 +33,7 @@ This index defines the repository structure, recommended load order, and purpose
 | Resource discovery before building | [skills/21_RESOURCE_DISCOVERY_SKILL.md](skills/21_RESOURCE_DISCOVERY_SKILL.md) |
 | Specialist review swarm | [skills/22_REVIEW_SWARM.md](skills/22_REVIEW_SWARM.md) |
 | Research pipeline generation | [skills/23_RESEARCH_PIPELINE_GENERATOR.md](skills/23_RESEARCH_PIPELINE_GENERATOR.md), [prompts/16_RESEARCH_PIPELINE_GENERATOR.md](prompts/16_RESEARCH_PIPELINE_GENERATOR.md) |
+| Project evaluation and benchmarking | [core/16_EVALUATION_ENGINE.md](core/16_EVALUATION_ENGINE.md), [skills/26_PROJECT_EVALUATION_SKILL.md](skills/26_PROJECT_EVALUATION_SKILL.md), [evaluation/18_PROJECT_SCORECARD.md](evaluation/18_PROJECT_SCORECARD.md), [evaluation/19_BENCHMARK_PROTOCOL.md](evaluation/19_BENCHMARK_PROTOCOL.md) |
 | Project-type workflows | [playbooks/06_PLAYBOOKS.md](playbooks/06_PLAYBOOKS.md) |
 | Copy-paste task prompts | [prompts/13_PROMPT_LIBRARY.md](prompts/13_PROMPT_LIBRARY.md) |
 | Tool setup | One file from [adapters/](adapters/) |
@@ -62,6 +63,7 @@ This index defines the repository structure, recommended load order, and purpose
 - [core/11_DOMAIN_INTELLIGENCE.md](core/11_DOMAIN_INTELLIGENCE.md): how to enter unfamiliar fields safely.
 - [core/12_SCIENTIFIC_REASONING.md](core/12_SCIENTIFIC_REASONING.md): hypothesis testing, evidence, causality, and measurement.
 - [core/13_MODEL_ROUTER.md](core/13_MODEL_ROUTER.md): routing work across models, harnesses, research tools, execution agents, reviewers, and future tools.
+- [core/16_EVALUATION_ENGINE.md](core/16_EVALUATION_ENGINE.md): quality scoring, project evaluation, benchmark discipline, evidence references, confidence levels, and Aurelian self-evaluation.
 
 ### Workflow Modules
 
@@ -70,6 +72,7 @@ This index defines the repository structure, recommended load order, and purpose
 - [skills/21_RESOURCE_DISCOVERY_SKILL.md](skills/21_RESOURCE_DISCOVERY_SKILL.md): discover and evaluate existing resources before building, including docs, repos, registries, design systems, UI/editor libraries, licenses, maturity, and build/wrap/buy/adapt/avoid decisions.
 - [skills/22_REVIEW_SWARM.md](skills/22_REVIEW_SWARM.md): specialist review swarm protocol for high-risk work, UI/editor systems, and AI-generated interfaces.
 - [skills/23_RESEARCH_PIPELINE_GENERATOR.md](skills/23_RESEARCH_PIPELINE_GENERATOR.md): automatically determines the research reports a project needs before implementation, including categories, specialists, dependencies, confidence, implementation impact, dependency graph, and execution order.
+- [skills/26_PROJECT_EVALUATION_SKILL.md](skills/26_PROJECT_EVALUATION_SKILL.md): evaluates projects, milestones, repositories, model routes, and Aurelian effectiveness with scorecards, confidence levels, evidence references, trends, fixes, and next milestones.
 - [playbooks/06_PLAYBOOKS.md](playbooks/06_PLAYBOOKS.md): end-to-end workflows for SaaS, APIs, CLIs, monorepos, migrations, legacy code, and greenfield projects.
 - [playbooks/18_RESEARCH_TO_EXECUTION_OS.md](playbooks/18_RESEARCH_TO_EXECUTION_OS.md): full research-to-execution workflow from intake through discovery, research, synthesis, repo audit, roadmap, execution, review swarm, and learning update.
 - [prompts/00_AURELIAN_BOOTSTRAP_PROMPT.md](prompts/00_AURELIAN_BOOTSTRAP_PROMPT.md): portable paste-in bootstrap prompt for starting a project with Aurelian in any capable tool.
@@ -92,6 +95,7 @@ This index defines the repository structure, recommended load order, and purpose
 ### Templates
 
 - [templates/aurelian-project/](templates/aurelian-project/): reusable project scaffold with `AGENTS.md`, `CLAUDE.md`, Cursor rules, project docs, research/report folders, and `.aurelian` state files.
+- [templates/aurelian-project/reports/evaluation/README.md](templates/aurelian-project/reports/evaluation/README.md): project-local evaluation report guidance.
 
 ### Examples
 
@@ -107,6 +111,8 @@ This index defines the repository structure, recommended load order, and purpose
 - [CHANGELOG.md](CHANGELOG.md)
 - [LICENSE.md](LICENSE.md)
 - [evaluation/17_EVALUATION_PROTOCOL.md](evaluation/17_EVALUATION_PROTOCOL.md)
+- [evaluation/18_PROJECT_SCORECARD.md](evaluation/18_PROJECT_SCORECARD.md)
+- [evaluation/19_BENCHMARK_PROTOCOL.md](evaluation/19_BENCHMARK_PROTOCOL.md)
 - [self-improvement/16_SELF_IMPROVEMENT.md](self-improvement/16_SELF_IMPROVEMENT.md)
 
 ## Public Identity
