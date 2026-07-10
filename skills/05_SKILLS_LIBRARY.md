@@ -2,6 +2,12 @@
 
 Standardized, self-contained skills. Each follows one schema: **Purpose / Trigger / Algorithm / Checklist / Example / Failure Modes / Output Format.** Install them per your tool's skill mechanism (`../adapters/`); load a skill's body only when its trigger fires (progressive disclosure). Skills compose the algorithms of `../core/03_EXECUTION_ENGINE.md` with the standards of `../core/08_VERIFICATION_ENGINE.md`; copy-paste prompt versions live in `../prompts/13_PROMPT_LIBRARY.md`.
 
+Standalone operational skills live beside this library when they need more detail than a compact entry can hold:
+
+- [20_TASTE_REVIEW_SKILL.md](20_TASTE_REVIEW_SKILL.md): practical UI taste review for hierarchy, spacing, typography, layout, density, color, motion, polish, accessibility, responsiveness, screenshots, and AI-generated UI.
+- [21_RESOURCE_DISCOVERY_SKILL.md](21_RESOURCE_DISCOVERY_SKILL.md): resource discovery before building from scratch, including docs, repos, package registries, design systems, component libraries, editor/canvas tools, AI UI tools, licenses, maintenance, maturity, and build/wrap/buy/adapt/avoid decisions.
+- [22_REVIEW_SWARM.md](22_REVIEW_SWARM.md): specialist review swarm protocol for architecture, security, performance, UX, taste, accessibility, testing, docs, product, motion, and frontend/UI systems.
+
 ---
 
 ## Security Sweep
