@@ -89,6 +89,30 @@ between sources rather than averaging them. Report: answer, sources with
 grades and dates, confidence, and what remains uncertain.
 ```
 
+## Research Pipeline Generator
+
+For the complete standalone version, use [16_RESEARCH_PIPELINE_GENERATOR.md](16_RESEARCH_PIPELINE_GENERATOR.md).
+
+```text
+Project: [project idea, repository summary, or both].
+Before implementation begins, generate the research pipeline this project needs.
+Consider: domain knowledge, technical architecture, frontend, backend, AI/ML,
+UX, UI, motion, accessibility, infrastructure, DevOps, testing, security,
+product strategy, competitive analysis, legal/privacy, performance, scientific
+validation, datasets, APIs, open-source ecosystem, resource atlas, and
+build-vs-buy.
+
+For every recommended research document include: filename, category,
+specialist, purpose, why it exists, required inputs, expected outputs,
+downstream dependencies, implementation importance, confidence, estimated
+effort, and whether additional discovery is required first.
+
+Also output: category triage, Research Dependency Graph, Research Execution
+Order, discovery gate, and implementation readiness. Do not perform the
+research or propose implementation before prerequisite discovery/research is
+complete.
+```
+
 ## Teacher
 
 ```text

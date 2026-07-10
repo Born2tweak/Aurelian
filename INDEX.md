@@ -32,6 +32,7 @@ This index defines the repository structure, recommended load order, and purpose
 | UI taste review | [skills/20_TASTE_REVIEW_SKILL.md](skills/20_TASTE_REVIEW_SKILL.md) |
 | Resource discovery before building | [skills/21_RESOURCE_DISCOVERY_SKILL.md](skills/21_RESOURCE_DISCOVERY_SKILL.md) |
 | Specialist review swarm | [skills/22_REVIEW_SWARM.md](skills/22_REVIEW_SWARM.md) |
+| Research pipeline generation | [skills/23_RESEARCH_PIPELINE_GENERATOR.md](skills/23_RESEARCH_PIPELINE_GENERATOR.md), [prompts/16_RESEARCH_PIPELINE_GENERATOR.md](prompts/16_RESEARCH_PIPELINE_GENERATOR.md) |
 | Project-type workflows | [playbooks/06_PLAYBOOKS.md](playbooks/06_PLAYBOOKS.md) |
 | Copy-paste task prompts | [prompts/13_PROMPT_LIBRARY.md](prompts/13_PROMPT_LIBRARY.md) |
 | Tool setup | One file from [adapters/](adapters/) |
@@ -68,10 +69,12 @@ This index defines the repository structure, recommended load order, and purpose
 - [skills/20_TASTE_REVIEW_SKILL.md](skills/20_TASTE_REVIEW_SKILL.md): operational UI taste review with screenshot evidence, hierarchy, spacing, typography, motion, accessibility, responsiveness, premium feel, and AI-generated UI quality gates.
 - [skills/21_RESOURCE_DISCOVERY_SKILL.md](skills/21_RESOURCE_DISCOVERY_SKILL.md): discover and evaluate existing resources before building, including docs, repos, registries, design systems, UI/editor libraries, licenses, maturity, and build/wrap/buy/adapt/avoid decisions.
 - [skills/22_REVIEW_SWARM.md](skills/22_REVIEW_SWARM.md): specialist review swarm protocol for high-risk work, UI/editor systems, and AI-generated interfaces.
+- [skills/23_RESEARCH_PIPELINE_GENERATOR.md](skills/23_RESEARCH_PIPELINE_GENERATOR.md): automatically determines the research reports a project needs before implementation, including categories, specialists, dependencies, confidence, implementation impact, dependency graph, and execution order.
 - [playbooks/06_PLAYBOOKS.md](playbooks/06_PLAYBOOKS.md): end-to-end workflows for SaaS, APIs, CLIs, monorepos, migrations, legacy code, and greenfield projects.
 - [playbooks/18_RESEARCH_TO_EXECUTION_OS.md](playbooks/18_RESEARCH_TO_EXECUTION_OS.md): full research-to-execution workflow from intake through discovery, research, synthesis, repo audit, roadmap, execution, review swarm, and learning update.
 - [prompts/00_AURELIAN_BOOTSTRAP_PROMPT.md](prompts/00_AURELIAN_BOOTSTRAP_PROMPT.md): portable paste-in bootstrap prompt for starting a project with Aurelian in any capable tool.
 - [prompts/13_PROMPT_LIBRARY.md](prompts/13_PROMPT_LIBRARY.md): portable prompts for agents that cannot load the full repository.
+- [prompts/16_RESEARCH_PIPELINE_GENERATOR.md](prompts/16_RESEARCH_PIPELINE_GENERATOR.md): standalone prompt for generating a complete research suite from a project idea, repository context, or both.
 
 ### Tooling
 

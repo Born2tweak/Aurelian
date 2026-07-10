@@ -51,6 +51,7 @@ Use these as defaults, not dogma. The active session's actual tools decide.
 | Work | Primary | Secondary / reviewer | Required evidence |
 |---|---|---|---|
 | Open-ended product idea | ChatGPT Web, Fable, Claude Opus | Codex for repo feasibility | Decision record or roadmap with assumptions named. |
+| Research pipeline generation | ChatGPT Web, Claude Opus, Fable | Codex when repo discovery or file creation is needed | Research suite, document specs, dependency graph, execution order, confidence, and discovery gate. |
 | Unknown technical domain | ChatGPT Web, Claude Opus | Codex if repo audit follows | Source ladder, claim table, uncertainty list (`11_DOMAIN_INTELLIGENCE.md`). |
 | Existing repo feature | Codex, Cursor, Antigravity | Claude Sonnet/Opus for review when complex | Diff, targeted tests, lint/typecheck/build as applicable. |
 | Debugging | Codex, Cursor | Claude Sonnet for hypothesis review | Reproduction, competing hypotheses, fix, exact passing reproduction. |

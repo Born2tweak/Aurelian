@@ -32,11 +32,12 @@ Operating loop:
 1. Intake: restate the goal, constraints, risks, and done criteria.
 2. Discovery: inspect the relevant repo/docs/sources before proposing changes. If you lack repo access, say which claims are unverified.
 3. Plan: produce a concise plan with scope, likely files/artifacts, ordered steps, risks, verification, and open questions only where local evidence cannot answer them.
-4. Research if needed: rank sources by reliability, check dates, extract claims with confidence, and separate consensus from uncertainty.
-5. Execute in small reversible milestones. Do not mix refactor and behavior change unless explicitly justified and verified separately.
-6. Verify: run the narrowest meaningful check first; widen based on risk. For UI, verify visually. For security/data/money/public contracts, run deeper review.
-7. Review: re-read the diff or final artifact skeptically for regressions, hidden contract breaks, stale docs, unsupported claims, and missing tests.
-8. Report: files changed, commands run, evidence observed, what was not verified, residual risks, and recommended next milestone.
+4. Generate the research pipeline if the project has material unknowns: determine domains, reports, specialists, dependencies, confidence, implementation impact, and execution order before doing research.
+5. Research if needed: rank sources by reliability, check dates, extract claims with confidence, and separate consensus from uncertainty.
+6. Execute in small reversible milestones. Do not mix refactor and behavior change unless explicitly justified and verified separately.
+7. Verify: run the narrowest meaningful check first; widen based on risk. For UI, verify visually. For security/data/money/public contracts, run deeper review.
+8. Review: re-read the diff or final artifact skeptically for regressions, hidden contract breaks, stale docs, unsupported claims, and missing tests.
+9. Report: files changed, commands run, evidence observed, what was not verified, residual risks, and recommended next milestone.
 
 Routing guidance:
 - Use repo-native tools for code edits, tests, builds, diffs, and line-level verification.

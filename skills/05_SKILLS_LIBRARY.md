@@ -7,6 +7,19 @@ Standalone operational skills live beside this library when they need more detai
 - [20_TASTE_REVIEW_SKILL.md](20_TASTE_REVIEW_SKILL.md): practical UI taste review for hierarchy, spacing, typography, layout, density, color, motion, polish, accessibility, responsiveness, screenshots, and AI-generated UI.
 - [21_RESOURCE_DISCOVERY_SKILL.md](21_RESOURCE_DISCOVERY_SKILL.md): resource discovery before building from scratch, including docs, repos, package registries, design systems, component libraries, editor/canvas tools, AI UI tools, licenses, maintenance, maturity, and build/wrap/buy/adapt/avoid decisions.
 - [22_REVIEW_SWARM.md](22_REVIEW_SWARM.md): specialist review swarm protocol for architecture, security, performance, UX, taste, accessibility, testing, docs, product, motion, and frontend/UI systems.
+- [23_RESEARCH_PIPELINE_GENERATOR.md](23_RESEARCH_PIPELINE_GENERATOR.md): automatically determines the research suite a project needs before implementation, including report filenames, categories, specialists, dependencies, confidence, effort, implementation impact, dependency graph, and execution order.
+
+---
+
+## Research Pipeline Generator
+
+- **Purpose:** Decide what research a project needs before implementation begins, then generate the complete research pipeline.
+- **Trigger:** A project idea, existing repository, or both; especially when the project touches unfamiliar domains, AI/ML, UI/UX, security, privacy/legal, infrastructure, scientific claims, datasets, APIs, open-source choices, resource atlas work, or build-vs-buy decisions.
+- **Algorithm:** Use [23_RESEARCH_PIPELINE_GENERATOR.md](23_RESEARCH_PIPELINE_GENERATOR.md). In brief: inspect available project/repo evidence, classify research categories, separate discovery from research, define report specs, assign specialists, map dependencies, estimate confidence/impact/effort, generate the dependency graph, and order execution.
+- **Checklist:** all categories considered / recommended reports feed implementation decisions / every report has filename, purpose, inputs, outputs, dependencies, specialist, importance, confidence, and effort / graph is acyclic / discovery gate stated.
+- **Example:** A user gives "build an AI UI editor." The generator recommends project discovery, domain/product research, resource atlas, build-vs-buy, UI system research, motion interaction research, security/privacy threat model, AI/ML eval research, accessibility research, testing strategy, and performance research, ordered by dependency and risk retired.
+- **Failure modes:** generic research checklists; skipping resource discovery; treating a thin idea as high-confidence evidence; producing reports with no downstream implementation use.
+- **Output format:** Research Pipeline / Category triage / Recommended research documents / Research Dependency Graph / Research Execution Order / Discovery gate / Implementation readiness.
 
 ---
 

@@ -1,6 +1,6 @@
 # 18_RESEARCH_TO_EXECUTION_OS -- From Unknown Domain to Verified Change
 
-This playbook turns research into execution without letting either side dominate. Research without implementation becomes theater; implementation without research becomes fluent guessing. The workflow composes `11_DOMAIN_INTELLIGENCE.md`, `12_SCIENTIFIC_REASONING.md`, `03_EXECUTION_ENGINE.md`, `07_DECISION_ENGINE.md`, `08_VERIFICATION_ENGINE.md`, and `13_MODEL_ROUTER.md`.
+This playbook turns research into execution without letting either side dominate. Research without implementation becomes theater; implementation without research becomes fluent guessing. The workflow composes `11_DOMAIN_INTELLIGENCE.md`, `12_SCIENTIFIC_REASONING.md`, `03_EXECUTION_ENGINE.md`, `07_DECISION_ENGINE.md`, `08_VERIFICATION_ENGINE.md`, `13_MODEL_ROUTER.md`, and `../skills/23_RESEARCH_PIPELINE_GENERATOR.md`.
 
 Use it when a project begins with material uncertainty: unfamiliar domain, new market, ambiguous product requirements, high-risk architecture, or a codebase whose behavior is not yet trusted.
 
@@ -24,15 +24,17 @@ Output: one-page task brief with assumptions, risks, and initial route.
 
 Output: discovery notes with source paths and open questions.
 
-## 3. Research Prompt Generation
+## 3. Research Pipeline and Prompt Generation
 
-1. Convert open questions into research prompts with the decision each answer feeds.
-2. Demand source ranking, dates, conflict surfacing, and confidence labels.
-3. Define the required artifact: claim table, ontology map, competitor scan, standard summary, API comparison, or risk memo.
-4. Set boundaries: no implementation advice without sources; no low-reliability claim promoted to fact.
-5. Route prompts to the best research/synthesis tool using `../core/13_MODEL_ROUTER.md`.
+1. Use `../skills/23_RESEARCH_PIPELINE_GENERATOR.md` to determine which research categories are needed, which reports should exist, their specialists, dependencies, confidence, implementation impact, estimated effort, and execution order.
+2. Add `docs/research/00_PROJECT_DISCOVERY.md` first when repository/product discovery is not sufficient to scope the research suite.
+3. Convert each recommended report into research prompts with the decision each answer feeds.
+4. Demand source ranking, dates, conflict surfacing, and confidence labels.
+5. Define the required artifact: claim table, ontology map, competitor scan, standard summary, API comparison, threat model, resource atlas, build-vs-buy matrix, or risk memo.
+6. Set boundaries: no implementation advice without sources; no low-reliability claim promoted to fact.
+7. Route prompts to the best research/synthesis tool using `../core/13_MODEL_ROUTER.md`.
 
-Output: executable research prompts with return formats.
+Output: research pipeline, dependency graph, execution order, and executable research prompts with return formats.
 
 ## 4. Research Execution
 
@@ -127,6 +129,7 @@ Output: evidence-grounded closeout and recommended next milestone.
 ## Completion checklist
 
 - Objective, scope, and risk were stated.
+- Research pipeline, dependency graph, and execution order were generated before individual reports were executed.
 - Research claims were source-ranked and date-checked.
 - Synthesis produced engineering constraints, not just prose.
 - Repository audit read the edit surface and contracts.
