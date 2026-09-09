@@ -2,6 +2,13 @@
 
 All notable changes to Aurelian are recorded here.
 
+## Unreleased
+
+- Reworked the README around project purpose, workflows, tools, data, and getting started.
+- Added architecture, workflow, and reliability guides with concrete development examples.
+- Distinguished the published instruction framework from the separate Runtime and Trust Core implementations.
+- Linked the new guides from the project index.
+
 ## 1.0.0 - 2026-07-06
 
 - Rebranded the system as **Aurelian**.
