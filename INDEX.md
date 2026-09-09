@@ -47,7 +47,10 @@ This index defines the repository structure, recommended load order, and purpose
 
 ### Top-Level Guides
 
-- [README.md](README.md): overview, installation modes, repository map, provenance, and core rule.
+- [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md): instruction architecture and the separate Runtime and Trust Core.
+- [docs/WORKFLOWS.md](docs/WORKFLOWS.md): engineering, review, research, and session-continuation examples.
+- [docs/RELIABILITY.md](docs/RELIABILITY.md): development cases, verification scope, and research connections.
+- [README.md](README.md): project purpose, available capabilities, workflow, getting started, and repository map.
 - [INSTALL_AURELIAN_IN_PROJECT.md](INSTALL_AURELIAN_IN_PROJECT.md): official guide for applying the project template, agent loaders, bootstrap prompt, research docs, repo audit, roadmap, and milestone execution to any repository.
 
 ### Core
